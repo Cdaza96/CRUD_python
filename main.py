@@ -1,4 +1,4 @@
-
+clients = 'juan,pedro,'
 
 def create_client(client_name):
     global clients
@@ -34,7 +34,7 @@ if __name__ == '__main__':
         create_client(client_name)
         list_clients()
 
-    elif commando == 'D':
+    elif command == 'D':
         pass
     else:
         print('invalid command')
